@@ -25,4 +25,4 @@ WORKDIR /home/$USERNAME
 COPY --chown=$USERNAME:$USERNAME docs docs/.
 
 # Install Sphinx RTD Theme
-RUN sudo apt install -y python3-sphinx-rtd-theme
+RUN sudo -E apt install -y python3-sphinx-rtd-theme
