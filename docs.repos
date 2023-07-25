@@ -1,0 +1,65 @@
+repositories:
+  gc_spl-docs:
+    type: git
+    url: git@github.com:ros-sports/gc_spl-docs
+    version: main
+  ipm-docs:
+    type: git
+    url: git@github.com:ros-sports/ipm-docs
+    version: main
+  nao-docs:
+    type: git
+    url: git@github.com:ijnek/nao-docs
+    version: main
+  nao_interfaces-docs:
+    type: git
+    url: git@github.com:ijnek/nao_interfaces-docs
+    version: main
+  nao_lola-docs:
+    type: git
+    url: git@github.com:ros-sports/nao_lola-docs
+    version: main
+  naosoccer_visualization-docs:
+    type: git
+    url: git@github.com:ijnek/naosoccer_visualization-docs
+    version: main
+  r2r_spl-docs:
+    type: git
+    url: git@github.com:ros-sports/r2r_spl-docs
+    version: main
+  rcss3d_agent-docs:
+    type: git
+    url: git@github.com:ros-sports/rcss3d_agent-docs
+    version: main
+  rcss3d_nao-docs:
+    type: git
+    url: git@github.com:ros-sports/rcss3d_nao-docs
+    version: main
+  ros-sports-docs:
+    type: git
+    url: git@github.com:ros-sports/ros-sports-docs
+    version: main
+  rqt_image_overlay-docs:
+    type: git
+    url: git@github.com:ros-sports/rqt_image_overlay-docs
+    version: main
+  soccer_interfaces-docs:
+    type: git
+    url: git@github.com:ros-sports/soccer_interfaces-docs
+    version: main
+  soccer_object_msgs-docs:
+    type: git
+    url: git@github.com:ijnek/soccer_object_msgs-docs
+    version: main
+  soccer_vision_3d_rviz_markers-docs:
+    type: git
+    url: git@github.com:ros-sports/soccer_vision_3d_rviz_markers-docs
+    version: main
+  soccer_visualization-docs:
+    type: git
+    url: git@github.com:ijnek/soccer_visualization-docs
+    version: main
+  team_ijnek-docs:
+    type: git
+    url: git@github.com:ijnek/team_ijnek-docs
+    version: main
