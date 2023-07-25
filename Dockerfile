@@ -24,5 +24,5 @@ WORKDIR /home/$USERNAME
 # Copy the cloned repositories into container
 COPY --chown=$USERNAME:$USERNAME docs docs/.
 
-# Install Sphinx RTD Theme
-RUN sudo -E apt install -y python3-sphinx-rtd-theme
+# Install necesary packages
+RUN sudo -E apt install -y git python3-sphinx-rtd-theme
