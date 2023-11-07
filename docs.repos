@@ -18,7 +18,7 @@ repositories:
   nao_lola-docs:
     type: git
     url: git@github.com:ros-sports/nao_lola-docs
-    version: main
+    version: rolling
   naosoccer_visualization-docs:
     type: git
     url: git@github.com:ijnek/naosoccer_visualization-docs
