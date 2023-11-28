@@ -25,4 +25,4 @@ WORKDIR /home/$USERNAME
 COPY --chown=$USERNAME:$USERNAME docs docs/.
 
 # Install necesary packages
-RUN sudo -E apt install -y git python3-sphinx-rtd-theme
+RUN sudo -E apt install -y git python3-sphinx-rtd-theme python3-pip
