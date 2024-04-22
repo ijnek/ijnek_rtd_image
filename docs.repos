@@ -1,7 +1,7 @@
 repositories:
-  gc_spl-docs:
+  game_controller_spl-docs:
     type: git
-    url: git@github.com:ros-sports/gc_spl-docs
+    url: git@github.com:ros-sports/game_controller_spl-docs
     version: main
   ipm-docs:
     type: git
