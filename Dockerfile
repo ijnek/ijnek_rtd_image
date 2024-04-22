@@ -4,7 +4,7 @@ FROM ubuntu:noble
 # NOTE: for this to take effect when using "sudo" apt install, we need the -E flag to preserve the environment variable inside the sudo command
 ARG DEBIAN_FRONTEND=noninteractive
 
-# Switch to non-root ubuntu user
+# Switch to non-root ubuntu user, and add user to sudoers
 ARG USERNAME=ubuntu
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
