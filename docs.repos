@@ -47,17 +47,9 @@ repositories:
     type: git
     url: git@github.com:ros-sports/soccer_interfaces-docs
     version: main
-  soccer_object_msgs-docs:
-    type: git
-    url: git@github.com:ijnek/soccer_object_msgs-docs
-    version: main
   soccer_vision_3d_rviz_markers-docs:
     type: git
     url: git@github.com:ros-sports/soccer_vision_3d_rviz_markers-docs
-    version: main
-  soccer_visualization-docs:
-    type: git
-    url: git@github.com:ijnek/soccer_visualization-docs
     version: main
   team_ijnek-docs:
     type: git
