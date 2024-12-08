@@ -19,3 +19,8 @@ WORKDIR /home/$USERNAME
 
 # Install necesary packages
 RUN sudo -E apt install -y git python3-sphinx-rtd-theme python3-pip
+
+# Set locale to UTF-8
+RUN sudo -E apt install -y locales && \
+    sudo -E locale-gen en_US.UTF-8 && \
+    sudo -E dpkg-reconfigure locales
